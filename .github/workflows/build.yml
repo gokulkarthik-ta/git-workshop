@@ -49,7 +49,7 @@ jobs:
       - name: show files
         run: |
          tree .
-         echo $pwd
+         pwd
 
       
           
