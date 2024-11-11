@@ -48,8 +48,11 @@ jobs:
           name: my-artifact
       - name: show files
         run: |
-         tree .
-         pwd
+          tree .
+          pwd
+      - name: display files
+        run: |
+          ls -R
 
       
           
