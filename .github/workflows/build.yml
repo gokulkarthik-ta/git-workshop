@@ -22,4 +22,7 @@ jobs:
           pip install --upgrade build
           python -m build
           tree .
+      - name: Artifact 
+        run: |
+          
         
