@@ -28,7 +28,7 @@ jobs:
           mv script.py dist/script.py
           cd dist
           rm my_package-0.0.0.tar.gz
-          ls
+          tree .
 
       
           
