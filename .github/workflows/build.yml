@@ -19,7 +19,7 @@ jobs:
           tree .
       - name: build
         run: |
-          python install --upgrade build
+          pip install --upgrade build
           python -m build
           tree .
         
