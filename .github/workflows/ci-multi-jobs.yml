@@ -1,10 +1,10 @@
 name: CI-Multi-Jobs
 
-on:
-  push:
-    branches:
-      - branch_name
-  workflow_dispatch:
+# on:
+#   push:
+#     branches:
+#       - branch_name
+#   workflow_dispatch:
 
 jobs:
 

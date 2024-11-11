@@ -1,10 +1,10 @@
 name: CI-HelloWorld
 
-on:
-  push:
-    branches:
-      - branch-name
-  workflow_dispatch:
+# on:
+#   push:
+#     branches:
+#       - branch-name
+#   workflow_dispatch:
 
 jobs:
 
