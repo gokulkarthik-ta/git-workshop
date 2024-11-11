@@ -17,4 +17,8 @@ jobs:
         run: |
           sudo apt-get install -y tree
           tree .
+      - name: build
+        run: |
+          python -m build
+          tree .
         
