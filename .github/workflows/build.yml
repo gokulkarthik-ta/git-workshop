@@ -53,6 +53,10 @@ jobs:
       - name: display files
         run: |
           ls -R
+      - name: install whl file and run script.py
+        run: |
+          pip install *.whl
+          python script.py
 
       
           
